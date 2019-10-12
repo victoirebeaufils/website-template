@@ -1,0 +1,43 @@
+.body{
+    background-color:blue;
+}
+.img-fluid{
+    padding:0px;
+    margin:0px;
+}
+
+/*Testing*/
+
+
+.product-name{
+    background-color: white;
+}
+.product-description{
+    padding-top:10px;
+    background-color: white;
+}
+.col-4{
+    background-color:white;
+}
+/*End testing*/
+
+.github-logo{
+    padding-left: 4%;
+}
+.banner{
+    margin:30px 0 0px;
+    padding:0px;
+}
+.product-info{
+    padding-right: 30px;
+}
+
+
+.other-projects *{
+    padding-left:0px;
+    margin:15px 0px 0px;
+}
+
+
+    
+}
