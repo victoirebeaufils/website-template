@@ -1,25 +1,21 @@
-.body{
-    background-color:blue;
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+   
+}
+h1,h2{
+    font-weight: 600;
+}
+
+h4{
+    font-size:20px;
 }
 .img-fluid{
     padding:0px;
     margin:0px;
 }
 
-/*Testing*/
-
-
-.product-name{
-    background-color: white;
-}
-.product-description{
-    padding-top:10px;
-    background-color: white;
-}
-.col-4{
-    background-color:white;
-}
-/*End testing*/
 
 .github-logo{
     padding-left: 4%;
@@ -30,14 +26,60 @@
 }
 .product-info{
     padding-right: 30px;
+    
 }
-
+.product-short-description{
+    padding-top:15px;
+}
 
 .other-projects *{
     padding-left:0px;
     margin:15px 0px 0px;
+
 }
-
-
+.other-projects{
+    margin-bottom: 100px;
+    margin-top:15px;
+}
+.see-more{
     
+    margin-left: 4%;
+    padding:0 3%;
+
+} 
+
+p{
+    font-size:18px;
+}
+.other-projects .project-description{
+   margin-top:1vh;
+   
+}
+.other-project-left .project-description{
+    margin-right:3vh;
+}
+.other-project-right .project-description{
+    margin-right:3vh;
+   
+}
+.other-projects .technologies-used{
+    margin-top:1vh;
+}
+.other-project-left{
+    max-width: 48%;
+    margin-right:2%;
+}
+.other-project-right{
+    max-width: 48%;
+    margin-left:2%;
+}
+.flag-icon{
+    margin-right:5%;
+}
+.technologies .badge-dark{
+    margin:5px;
+    padding:10px;
+}
+.technologies .badge-dark:hover{
+    background-color:black;
 }
