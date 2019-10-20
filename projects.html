@@ -15,57 +15,86 @@
 
 <body>
         <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!--Toggles navbar when on mobile-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container">
-            <div>
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"><img src="brand.png" class="img-fluid" alt="Responsive image"
-                                style="height:40px;">
-            </div><span class="sr-only">(current)</span></a>
-            </li>
-
-            </ul>
-            <span>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="../index.html"><img src="../brand.png" class="img-fluid" alt="Responsive image"
+                        style="height:40px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+              
+                    <div class="collapse navbar-collapse" id="navbarsExample03">
+                        
+                      <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects </a>
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                          <a class="nav-link" href="../projects.html">Projects </a>
                         </li>
-                        <li>
-                            <div class="dropdown " id="dd">
-                                <button class="btn  dropdown-toggle " data-boundary="dd" type="button"
-                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
-                                    <i class="fas fa-globe-americas"></i>
-                                </button>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="fr/index.html"><span
-                                        class="flag-icon flag-icon-fr"></span>  French</a>
-                                    <a class="dropdown-item" href="index.html"><span
-                                        class="flag-icon flag-icon-us"></span>  English</a>
-                                    <a class="dropdown-item" href="es/index.html"><span
-                                        class="flag-icon flag-icon-es"></span>  Spanish</a>
-                                </div>
-                            </div>
+                        <li class="nav-item">
+                          <a class="nav-link " href="../about.html">About</a>
                         </li>
-                    </ul>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe-americas"></i></a>
+                          <div class="dropdown-menu" aria-labelledby="dropdown03">
+                            
+                                                    <a class="dropdown-item" href="../fr/index.html"><span
+                                                        class="flag-icon flag-icon-fr"></span>  French</a>
+                                                    <a class="dropdown-item" href="../index.html"><span
+                                                        class="flag-icon flag-icon-us"></span>  English</a>
+                                                    <a class="dropdown-item" href="../es/index.html"><span
+                                                        class="flag-icon flag-icon-es"></span>  Spanish</a>
+                                    
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                 </div>
-            </span>
-        </div>
-        </div>
-    </nav>
+            </nav>
 
-    <h1> <a href="projects/project1.html">See project 1</a> </h1>
+    <div class="container projects">
+        <h2 class="text-center"> Projects </h2>
+        <div class="col-lg-4 offset-lg-4">
+            <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search Project" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+                    </div>
+                  </div>
+        </div>
+
+        <div class="row other-projects justify-content-md-center">
+
+                <div class="col-lg-6 other-project-left">
+                    <img class="img-fluid" src="illustration.gif">
+                   
+                    <h2>Project left </h2>
+                    
+                    <h4 class="technologies-used">HTML / CSS / Javascript</h4>
+                    <p class="project-description"> Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Orci a
+                        scelerisque purus semper eget duis at tellus at.
+                        Mauris vitae ultricies leo integer. Est pellentesque elit ullamcorper dignissim cras
+                        tincidunt.
+                        Senectus et netus et malesuada fames ac turpis. Sed elementum tempus egestas sed sed
+                        risus pretium quam.</p>
+                </div>
+                <div class="col-lg-6 other-project-right">
+
+                    <img class="img-fluid mw-80 mh-80" src="illustration.gif">
+                    <h2>Project right</h2>
+                    <h4 class="technologies-used">React / Express / MongoDB / Node.js</h4>
+                    <p class="project-description"> Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Orci a
+                        scelerisque purus semper eget duis at tellus at.
+                        Mauris vitae ultricies leo integer. Est pellentesque elit ullamcorper dignissim cras
+                        tincidunt.
+                        Senectus et netus et malesuada fames ac turpis. Sed elementum tempus egestas sed sed
+                        risus pretium quam.</p>
+                </div>
+            </div>
+
+
+    </div>
 
 
 
@@ -76,11 +105,7 @@
 
     <div class="footer">
             <div class="row">
-          <div class="col">
-          <a href="index_old.html" style="color:inherit"><b>  VB</b></a>
-          <p class="">Second-year CS student <br>based in Lafayette, IN</p>
-    
-          </div>
+        
           <div class="col">
             <a href="projects.html" style="color:inherit"><b>Projects</b></a>
             <p><a href="projects/project1.html" style="color:inherit">Project 1</a></p>

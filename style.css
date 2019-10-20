@@ -34,10 +34,7 @@ h4{
     color:black;
 
 }
-.banner{
-    margin:30px 0 0px;
-    padding:0px;
-}
+
 .product-info{
     padding-right: 30px;
     
@@ -46,54 +43,92 @@ h4{
     padding-top:15px;
 }
 
-.other-projects *{
+.other-projects img h4 h2 p{
     padding-left:0px;
-    margin:15px 0px 0px;
+   
 
 }
-.other-projects{
-    margin-bottom: 100px;
+.other-projects *{
+    margin:15px 0px 0px;
+}
+
+@media screen and (min-width: 480px)  and (max-width:576px){
+    .container{
+        padding:10%;
+    }
+    .icon{
+        padding:10% 20%;
+    }
+    .see-more{
+        margin-bottom:3%;
+    }
+  }
+@media screen and (min-width:576px){
+    .banner{
+        margin:30px 0 0px;
+        padding:0px;
+    }
+    .other-projects{
+    margin-bottom: 50px;
     margin-top:15px;
 }
 .see-more{
     
     margin-left: 4%;
-    padding:0 3%;
+    padding:1.5%;
 
-} 
-
+}
 p{
     font-size:18px;
-}
+} 
 .other-projects .project-description{
-   margin-top:1vh;
-   
-}
-.other-project-left .project-description{
-    margin-right:3vh;
-}
-.other-project-right .project-description{
-    margin-right:3vh;
-   
-}
-.other-projects .technologies-used{
     margin-top:1vh;
+    
+ }
+ .other-project-left .project-description {
+     margin-right:3vh;
+ }
+ .other-project-right .project-description{
+     margin-right:3vh;
+    
+ }
+ .other-projects .technologies-used {
+     margin-top:1vh;
+ }
+ 
+ .other-project-left{
+     max-width: 48%;
+     margin-right:2%;
+ }
+ .other-project-right{
+     max-width: 48%;
+     margin-left:2%;
+ }
+ .flag-icon{
+     margin-right:5%;
+ }
+ .technologies .badge-dark{
+     margin:5px;
+     padding:10px;
+ }
+ /*About page */
+ .about-me{
+    margin-top: 30px;
+    margin-bottom: 30px;
+     }
+     .contact-me{
+       margin-top: 30px;
+       margin-bottom: 30px;
+        }
+    
+        /*Projects page*/
+        .projects{
+            margin-top:2vh;
+        }
 }
-.other-project-left{
-    max-width: 48%;
-    margin-right:2%;
-}
-.other-project-right{
-    max-width: 48%;
-    margin-left:2%;
-}
-.flag-icon{
-    margin-right:5%;
-}
-.technologies .badge-dark{
-    margin:5px;
-    padding:10px;
-}
+
+
+
 .technologies .badge-dark:hover{
     background-color:black;
 }
@@ -139,7 +174,7 @@ ul.timeline > li:before {
     color: white;
     text-align: center;
     padding:15px;
-    margin-top:30px;
+    
   }
   .social-media-link{
     color:inherit;
@@ -151,12 +186,3 @@ ul.timeline > li:before {
     -webkit-filter: brightness(70%);
   
   }
-/*About page */
-  .about-me{
- margin-top: 30px;
- margin-bottom: 30px;
-  }
-  .contact-me{
-    margin-top: 30px;
-    margin-bottom: 30px;
-     }
