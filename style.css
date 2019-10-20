@@ -18,7 +18,21 @@ h4{
 
 
 .github-logo{
-    padding-left: 4%;
+    padding-left: 3%;
+    color:#343a40;
+    font-size: 37px;
+    text-decoration:none;
+
+}
+.github-logo a, .github-logo a:link, .github-logo a:visited {
+    color:#343a40;
+    text-decoration: none;
+  }
+
+
+.github-logo a :hover{
+    color:black;
+
 }
 .banner{
     margin:30px 0 0px;
@@ -83,3 +97,66 @@ p{
 .technologies .badge-dark:hover{
     background-color:black;
 }
+
+/* TIMELINE */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+/* Footer */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #414141;
+    color: white;
+    text-align: center;
+    padding:15px;
+    margin-top:30px;
+  }
+  .social-media-link{
+    color:inherit;
+    -webkit-filter: brightness(100%);
+    margin:0px 10px 0px;
+  }
+  .social-media-link:hover{
+    color:inherit;
+    -webkit-filter: brightness(70%);
+  
+  }
+/*About page */
+  .about-me{
+ margin-top: 30px;
+ margin-bottom: 30px;
+  }
+  .contact-me{
+    margin-top: 30px;
+    margin-bottom: 30px;
+     }
